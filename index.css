@@ -1,0 +1,49 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    font-family: sans-serif;
+
+}
+
+h1{
+    color: blue;
+    font-size: 40px;
+    margin-bottom: 0px;
+    
+}
+
+h2{
+    /* color: blue; */
+    font-size: 30px;
+    margin-bottom: 0px;
+    
+}
+
+.errormsg{
+    color: red;
+    font-weight: 600;
+    display: none;
+    margin-left: 50px;
+}
+
+.btn{
+    margin-top: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: green;    
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+#qr-content{
+    text-align: center;
+    height: 30px;
+    width: 330px;
+}
